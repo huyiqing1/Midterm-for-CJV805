@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.Header {
+  background-color: rgba(90, 128, 161, 0.733);
+}
+
+.Header h1 {
+  margin: 0;
+  text-align: center;
+  height: 70px;
+  font-size: 50px;
+}
+
+.Container {
+  width: 400px;
+  float: left;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+.Numbers {
+  float: left;
+  background-color: #3275B9;
+}
+
+.numbers-table {
+  width: 600px;
+}
+
+td {
+  text-align: center;
+}
+
+.numbers-table td {
+  border: 3px solid gold;
+  background-color: black;
+}
+
+.Result {
+  position: relative;
+  float: left;
+  background-color: hsl(31, 72%, 53%);
+  height: 600px;
+  width: 300px;
+}
+
+.coins-table {
+  margin: 0 auto;
+}
+
+.coins-table td button {
+  font-size: 30px;
+  color:white;
+  background-image: url("coin.jpg");
+  background-size: cover;
+  height: 130px;
+  width: 130px;
+  border: 0;
+  padding: 0;
+}
+
+.coins-table td button:active {
+  color: red;
+}
+
+.number button{
+  font-size: 40px;
+  color: #EFCC44;
+  background-color: black;
+  border: 0;
+  padding: 0;
+  width: 89px;
+}
+
+.number button:active{
+  color: red;
+}
+
+.cash button, .clear button, .random button {
+  background-color: black;
+  font-size: 40px;
+  color: #EFCC44;
+  border: 0;
+  padding: 0;
+}
+
+.cash button:active, .clear button:active, .random button:active {
+  color: red;
+}
+
+p {
+  font-weight: bold;
+}
+
+.total {
+  position: absolute;
+  bottom: 0;
+}
